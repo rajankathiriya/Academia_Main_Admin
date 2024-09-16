@@ -1,10 +1,9 @@
 [build]
-  # Directory to change before starting the build
-  base = "/"
-  # Command used to build your application
   command = "npm run build"
-  # Directory where the build output is located
   publish = "build"
+
+[build.environment]
+  NODE_VERSION = "16.x"  # Use your Node.js version
 
 [[redirects]]
   from = "/*"
