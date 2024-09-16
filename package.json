@@ -102,5 +102,8 @@
   },
   "overrides": {
     "nth-check": "2.1.1"
-  }
+  },
+  "description": "",
+  "main": "fileeee.js",
+  "license": "ISC"
 }
