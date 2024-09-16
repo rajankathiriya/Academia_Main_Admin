@@ -1,0 +1,12 @@
+[build]
+  # Directory to change before starting the build
+  base = "/"
+  # Command used to build your application
+  command = "npm run build"
+  # Directory where the build output is located
+  publish = "build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
